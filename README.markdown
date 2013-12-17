@@ -265,7 +265,7 @@ examples.  An asterisk (*) is used to denote the cursor position.
       [123+4*56]/2              cs])        (123+456)/2
       "Look ma, I'm *HTML!"     cs"<q>      <q>Look ma, I'm HTML!</q>
       if *x>3 {                 ysW(        if ( x>3 ) {
-      my $str = *whee!;         vlllls'     my $str = 'whee!';
+      my $str = *whee!;         vllllS'     my $str = 'whee!';
 
 For instance, if the cursor was inside `"foo bar"`, you could type
 `cs"'` to convert the text to `'foo bar'`.
@@ -436,7 +436,7 @@ Terminal emulator colorschemes:
 
 ## Snippets
 
-It also contains a very complete set of [snippets](https://github.com/spf13/vim-snippets) for use with snipmate or [NeoComplCache].
+It also contains a very complete set of [snippets](https://github.com/spf13/snipmate-snippets) for use with snipmate or [NeoComplCache].
 
 
 # Intro to VIM
